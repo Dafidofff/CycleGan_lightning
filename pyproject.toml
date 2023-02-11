@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "CycleGanLightning"
+name = "cycle_gan"
 version = "0.1.0"
-description = ""
+description = "Cycle GAN implementation in Pytorch Ligtning"
 authors = ["David Wessels <davidwessels15@gmail.com>"]
 readme = "README.md"
 
@@ -13,7 +13,9 @@ coverage = "^7.0.3"
 coverage-badge = "^1.1.0"
 pandas = "^1.5.3"
 matplotlib = "^3.6.3"
-
+torch = "^1.13.0"
+torchvision = "^0.14.0"
+pytorch-lightning = "^1.9.1"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.20.2"
